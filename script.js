@@ -30,6 +30,7 @@ if (content.emailConfirmee && content.email) {
     link.removeAttribute("href");
     link.setAttribute("aria-disabled", "true");
   });
+  if (emailStatus) emailStatus.hidden = false;
 }
 
 const tabs = [...document.querySelectorAll('[role="tab"]')];

@@ -9,6 +9,6 @@ window.SITE_CONTENT = {
   itineraire: "https://www.google.com/maps/search/?api=1&query=Lyc%C3%A9e+Notre-Dame+Mende",
   telephoneAffiche: "04 66 49 14 57",
   telephoneLien: "+33466491457",
-  email: "secretariat@notredamemende.fr",
-  emailConfirmee: false
+  email: "t.gautier@notredamemende.fr",
+  emailConfirmee: true
 };

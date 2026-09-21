@@ -12,7 +12,7 @@ Informations connues à ce jour :
 - Horaires : 8 h 30 à 12 h
 - Lieu : lycée Notre-Dame, avenue Maréchal de Lattre de Tassigny, 48000 Mende
 - Téléphone : 04 66 49 14 57
-- E-mail : à vérifier avant diffusion définitive
+- E-mail confirmé le 21 septembre 2026 : t.gautier@notredamemende.fr
 
 Ne jamais inventer une information pratique manquante. Utiliser un emplacement clairement marqué « à confirmer ».
 
@@ -156,6 +156,8 @@ Le but n'est pas seulement de mesurer la satisfaction : les réponses doivent ai
 - informations concrètes ;
 - ton professionnel mais humain ;
 - cohérence avec le flyer ;
+- direction visuelle éditoriale et institutionnelle : aplats nets, règles fines, formes géométriques et jaune utilisé comme signal ;
+- éviter les codes trop génériques des landing pages SaaS, notamment l’accumulation de cartes arrondies et de boutons en forme de pilule ;
 - animations discrètes ;
 - accessibilité ;
 - aucun compte utilisateur ;
@@ -244,7 +246,7 @@ Constats vérifiés sur l’URL GitHub Pages :
 - l’image passait avant l’information essentielle sur mobile ;
 - l’appel à l’action principal menait à une section d’information, pas à l’intention principale de participer ;
 - les polices Google ajoutaient une dépendance externe non indispensable ;
-- l’adresse e-mail était affichée comme certaine alors que sa validation reste indiquée comme nécessaire dans ce document ;
+- l’adresse e-mail était affichée comme certaine alors que sa validation n’était pas encore consignée dans ce document ; elle est désormais confirmée ;
 - la publication par branche et le workflow GitHub Actions semblaient tous deux activés. Une seule source de publication doit être conservée.
 
 Corrections proposées dans la branche de refonte :
@@ -252,6 +254,7 @@ Corrections proposées dans la branche de refonte :
 - affichage fiable avec ou sans JavaScript, prise en charge de `hidden` et mode impression ;
 - navigation clavier complète des onglets et états de focus visibles ;
 - parcours principal recentré sur la participation, avec bénéfices et objections visibles plus tôt ;
+- identité visuelle revue dans un registre plus éditorial et institutionnel, avec moins de formes arrondies génériques ;
 - ordre mobile corrigé et mise en page renforcée pour les petits écrans ;
 - données variables davantage centralisées dans `content.js` ;
 - ajout d’un fichier calendrier et d’un contrôle automatique sans dépendance.

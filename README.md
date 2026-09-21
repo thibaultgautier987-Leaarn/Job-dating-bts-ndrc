@@ -8,7 +8,7 @@ Le document [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) contient la stratégie, le 
 
 ## Modifier les informations essentielles
 
-Ouvrir `content.js` pour changer la date, les horaires, le lieu, le téléphone, l’itinéraire ou l’adresse e-mail. L’adresse e-mail ne devient cliquable que lorsque `emailConfirmee` vaut `true`.
+Ouvrir `content.js` pour changer la date, les horaires, le lieu, le téléphone, l’itinéraire ou l’adresse e-mail. Par sécurité, une nouvelle adresse ne devient cliquable que lorsque `emailConfirmee` vaut `true`.
 
 Le contenu des sections et de la FAQ se trouve dans `index.html`. L’apparence et le responsive se trouvent dans `styles.css`. Les interactions accessibles se trouvent dans `script.js`.
 
