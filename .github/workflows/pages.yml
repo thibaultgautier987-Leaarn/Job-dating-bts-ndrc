@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Récupérer le site
         uses: actions/checkout@v4
+      - name: Vérifier les liens et les fichiers
+        run: node scripts/check-site.mjs
       - name: Préparer les fichiers
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BTS NDRC Notre-Dame Mende//Job Dating 2026//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:job-dating-bts-ndrc-20261013@notredamemende.fr
+DTSTAMP:20260921T170000Z
+DTSTART;TZID=Europe/Paris:20261013T083000
+DTEND;TZID=Europe/Paris:20261013T120000
+SUMMARY:Job Dating BTS NDRC
+LOCATION:Lycée Notre-Dame\, Avenue Maréchal de Lattre de Tassigny\, 48000 Mende
+DESCRIPTION:Rencontre entre les entreprises invitées et les étudiants du BTS NDRC.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,80 +1,109 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Job Dating du BTS NDRC de Mende : entreprises et futurs talents commerciaux se rencontrent le 13 octobre 2026.">
   <meta name="theme-color" content="#102844">
+  <meta property="og:title" content="Job Dating · BTS NDRC Mende">
+  <meta property="og:description" content="Rencontrez de futurs stagiaires, alternants et collaborateurs commerciaux au lycée Notre-Dame de Mende.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
   <title>Job Dating · BTS NDRC Mende</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23102844'/%3E%3Cpath d='M15 19h34v7H36v23h-8V26H15z' fill='%23f2c94c'/%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#contenu">Aller au contenu</a>
+
   <header class="site-header" id="accueil">
-    <a class="brand" href="#accueil" aria-label="Retour en haut">
-      <span class="brand-mark">N</span><span>BTS NDRC<br><small>Notre-Dame · Mende</small></span>
+    <a class="brand" href="#accueil" aria-label="Retour en haut de la page">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span>BTS NDRC<br><small>Notre-Dame · Mende</small></span>
     </a>
     <nav aria-label="Navigation principale">
-      <a href="#programme">Programme</a><a href="#pratique">Infos pratiques</a><a class="nav-cta" href="#contact">Nous contacter</a>
+      <a href="#parcours">Pourquoi venir</a>
+      <a href="#programme">Déroulement</a>
+      <a href="#pratique">Infos pratiques</a>
+      <a class="nav-cta" href="#contact">Participer</a>
     </nav>
   </header>
 
   <main id="contenu">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Entreprises × étudiants</p>
+        <p class="eyebrow">Entreprises × étudiants · Mende</p>
         <h1 id="hero-title">Job Dating<br><span>BTS NDRC</span></h1>
         <p class="lead">Rencontrez de futurs stagiaires, alternants et collaborateurs commerciaux.</p>
+
         <div class="event-line" aria-label="Informations principales">
           <div><small>Date</small><strong data-field="dateLongue">Mardi 13 octobre 2026</strong></div>
           <div><small>Horaire</small><strong data-field="horaires">8 h 30 — 12 h</strong></div>
-          <div><small>Lieu</small><strong>Lycée Notre-Dame · Mende</strong></div>
+          <div><small>Lieu</small><strong data-field="lieuCourt">Lycée Notre-Dame · Mende</strong></div>
         </div>
-        <a class="primary-button" href="#parcours">Découvrir la matinée <span aria-hidden="true">↓</span></a>
+
+        <ul class="reassurance-list" aria-label="Conditions de participation">
+          <li>Participation gratuite</li>
+          <li>Aucun recrutement immédiat exigé</li>
+        </ul>
+
+        <div class="hero-actions">
+          <a class="primary-button" href="#contact">Je souhaite participer <span aria-hidden="true">→</span></a>
+          <a class="secondary-link" href="#programme">Voir le déroulement <span aria-hidden="true">↓</span></a>
+        </div>
       </div>
+
       <figure class="hero-visual reveal">
-        <img src="assets/lycee-notre-dame.png" alt="Façade du lycée Notre-Dame à Mende" width="1030" height="700">
+        <img src="assets/lycee-notre-dame.png" alt="Façade du lycée Notre-Dame à Mende" width="1030" height="700" fetchpriority="high" decoding="async">
+        <div class="event-stamp" aria-hidden="true"><strong>13</strong><span>OCT<br>2026</span></div>
         <figcaption><strong>Une matinée,</strong> des rencontres concrètes.</figcaption>
       </figure>
     </section>
 
     <section class="path-section" id="parcours" aria-labelledby="path-title">
       <div class="section-intro reveal">
-        <p class="eyebrow">Allez à l'essentiel</p>
-        <h2 id="path-title">Que souhaitez-vous savoir&nbsp;?</h2>
+        <p class="eyebrow">Un événement utile à chaque entreprise</p>
+        <h2 id="path-title">Trouvez directement l’information qui vous concerne.</h2>
       </div>
-      <div class="path-switch" role="tablist" aria-label="Choisir un parcours">
-        <button role="tab" aria-selected="true" aria-controls="decouvrir" id="tab-decouvrir">Je découvre l'événement</button>
-        <button role="tab" aria-selected="false" aria-controls="preparer" id="tab-preparer">Je participe déjà</button>
+
+      <div class="path-switch" role="tablist" aria-label="Choisir son parcours">
+        <button role="tab" aria-selected="true" aria-controls="decouvrir" id="tab-decouvrir" tabindex="0">Je découvre l’événement</button>
+        <button role="tab" aria-selected="false" aria-controls="preparer" id="tab-preparer" tabindex="-1">Je participe déjà</button>
       </div>
+
       <div class="path-panel" id="decouvrir" role="tabpanel" aria-labelledby="tab-decouvrir">
         <article><span>01</span><h3>Présentez</h3><p>Faites découvrir votre activité, vos métiers et vos valeurs à de futurs professionnels de la relation client.</p></article>
         <article><span>02</span><h3>Échangez</h3><p>Rencontrez directement les étudiants, leurs projets et leurs différentes sensibilités commerciales.</p></article>
-        <article><span>03</span><h3>Identifiez</h3><p>Repérez des profils pour un stage, une alternance, une future collaboration — même sans recrutement immédiat.</p></article>
+        <article><span>03</span><h3>Identifiez</h3><p>Repérez des profils pour un stage, une alternance ou une future collaboration — même sans besoin immédiat.</p></article>
       </div>
+
       <div class="path-panel" id="preparer" role="tabpanel" aria-labelledby="tab-preparer" hidden>
-        <article><span>01</span><h3>Votre entreprise</h3><p>Préparez une présentation courte de votre activité, de vos métiers et de ce qui compte chez un futur collaborateur.</p></article>
-        <article><span>02</span><h3>Vos opportunités</h3><p>Vous pouvez apporter offres, cartes de visite ou supports utiles. Rien n'est obligatoire pour participer.</p></article>
-        <article><span>03</span><h3>Vos questions</h3><p>Un besoin particulier ou un doute sur l'organisation ? Contactez l'équipe avant votre venue.</p></article>
+        <article><span>01</span><h3>Votre entreprise</h3><p>Préparez quelques phrases concrètes sur votre activité, vos métiers et ce qui compte chez un futur collaborateur.</p></article>
+        <article><span>02</span><h3>Vos opportunités</h3><p>Vous pouvez apporter offres, cartes de visite ou supports utiles. Rien n’est obligatoire pour participer.</p></article>
+        <article><span>03</span><h3>Votre venue</h3><p>Gardez les coordonnées de l’équipe et consultez les informations pratiques avant de vous déplacer.</p></article>
       </div>
     </section>
 
     <section class="program-section" id="programme" aria-labelledby="program-title">
-      <div class="program-heading reveal"><p class="eyebrow">Le déroulement</p><h2 id="program-title">Une matinée utile,<br>sans détour.</h2><p>Vous saurez avant l'événement ce qui est attendu de vous. L'objectif : laisser toute la place aux échanges.</p></div>
+      <div class="program-heading reveal">
+        <p class="eyebrow">Le déroulement</p>
+        <h2 id="program-title">Une matinée utile,<br>sans détour.</h2>
+        <p>Le principe est simple : comprendre les entreprises présentes, puis laisser toute la place aux rencontres avec les étudiants.</p>
+      </div>
       <ol class="timeline reveal">
-        <li><time>8 h 30</time><div><h3>Accueil café</h3><p>Arrivée des professionnels et temps d'accueil.</p></div></li>
-        <li><time>Matinée</time><div><h3>Présentation des entreprises</h3><p>Activité, métiers, culture et opportunités.</p></div></li>
-        <li><time>Puis</time><div><h3>Rencontres & entretiens</h3><p>Des échanges directs avec les étudiants du BTS NDRC.</p></div></li>
-        <li><time>12 h</time><div><h3>Fin de la rencontre</h3><p>Possibilité de poursuivre les échanges par la suite.</p></div></li>
+        <li><time>8 h 30</time><div><h3>Accueil des professionnels</h3><p>Arrivée au lycée et premier temps d’échange avec l’équipe organisatrice.</p></div></li>
+        <li><time>Ensuite</time><div><h3>Présentation des entreprises</h3><p>Activité, métiers, environnement de travail et opportunités possibles.</p></div></li>
+        <li><time>Matinée</time><div><h3>Rencontres avec les étudiants</h3><p>Des échanges directs autour des profils, des projets et des besoins professionnels.</p></div></li>
+        <li><time>12 h</time><div><h3>Fin de la rencontre</h3><p>Vous restez libre de poursuivre les échanges avec les profils rencontrés.</p></div></li>
       </ol>
     </section>
 
     <section class="profiles-section" aria-labelledby="profiles-title">
-      <div class="section-intro reveal"><p class="eyebrow">Qui allez-vous rencontrer ?</p><h2 id="profiles-title">Des étudiants formés à la relation client d'aujourd'hui.</h2></div>
+      <div class="section-intro reveal">
+        <p class="eyebrow">Qui allez-vous rencontrer ?</p>
+        <h2 id="profiles-title">Des étudiants formés à la relation client d’aujourd’hui.</h2>
+      </div>
       <div class="skills reveal" aria-label="Compétences du BTS NDRC">
         <span>Prospection</span><span>Négociation</span><span>Relation client</span><span>Communication</span><span>Digital</span><span>Animation de réseau</span>
       </div>
@@ -83,40 +112,72 @@
 
     <section class="practical-section" id="pratique" aria-labelledby="practical-title">
       <div class="practical-card reveal">
-        <p class="eyebrow">Informations pratiques</p><h2 id="practical-title">Préparez votre venue.</h2>
+        <p class="eyebrow">Informations pratiques</p>
+        <h2 id="practical-title">Préparez votre venue.</h2>
         <dl>
           <div><dt>Quand</dt><dd><span data-field="dateLongue">Mardi 13 octobre 2026</span><br><span data-field="horaires">8 h 30 — 12 h</span></dd></div>
-          <div><dt>Où</dt><dd>Lycée Notre-Dame<br>Av. Maréchal de Lattre de Tassigny<br>48000 Mende</dd></div>
-          <div><dt>Pour qui</dt><dd>Dirigeants, responsables RH, recruteurs et professionnels souhaitant rencontrer les étudiants.</dd></div>
+          <div><dt>Où</dt><dd><span data-field="lieuNom">Lycée Notre-Dame</span><br><span data-field="adresse">Av. Maréchal de Lattre de Tassigny<br>48000 Mende</span></dd></div>
+          <div><dt>Pour qui</dt><dd>Dirigeants, responsables RH, recruteurs, responsables commerciaux et professionnels du territoire.</dd></div>
         </dl>
-        <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Lyc%C3%A9e+Notre-Dame+Mende" target="_blank" rel="noopener">Ouvrir l'itinéraire <span aria-hidden="true">↗</span></a>
+        <div class="practical-actions">
+          <a class="text-link" data-map-link href="https://www.google.com/maps/search/?api=1&amp;query=Lyc%C3%A9e+Notre-Dame+Mende" target="_blank" rel="noopener">Ouvrir l’itinéraire <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="assets/job-dating-bts-ndrc.ics" download>Ajouter à mon agenda <span aria-hidden="true">↓</span></a>
+        </div>
       </div>
+
       <div class="faq reveal">
+        <p class="eyebrow">Avant de participer</p>
         <h2>Questions fréquentes</h2>
-        <details><summary>Puis-je venir sans recruter actuellement ?</summary><p>Oui. Vous pouvez participer pour présenter vos métiers, échanger avec les étudiants et créer un premier lien pour de futures opportunités.</p></details>
-        <details><summary>Dois-je préparer une longue présentation ?</summary><p>Non. Une présentation courte et concrète de votre activité, de vos métiers et de vos attentes suffit.</p></details>
-        <details><summary>Faut-il apporter quelque chose ?</summary><p>Ce n'est pas obligatoire. Vous pouvez toutefois apporter des cartes de visite, offres, plaquettes ou tout support utile aux échanges.</p></details>
+        <details><summary>Puis-je venir sans recruter actuellement ?</summary><p>Oui. Vous pouvez présenter vos métiers, échanger avec les étudiants et créer un premier lien pour de futures opportunités.</p></details>
+        <details><summary>Dois-je préparer une longue présentation ?</summary><p>Non. Quelques éléments concrets sur votre activité, vos métiers et vos attentes suffisent.</p></details>
+        <details><summary>Faut-il apporter quelque chose ?</summary><p>Ce n’est pas obligatoire. Vous pouvez toutefois apporter des cartes de visite, offres, plaquettes ou tout support utile aux échanges.</p></details>
+        <details><summary>Puis-je proposer un stage ou une alternance ?</summary><p>Oui. Le Job Dating permet d’échanger autour de stages, d’alternances et de futures opportunités professionnelles.</p></details>
         <details><summary>La participation est-elle payante ?</summary><p>Non, la participation au Job Dating est gratuite.</p></details>
-        <details><summary>Plusieurs personnes de l'entreprise peuvent-elles venir ?</summary><p>Contactez l'équipe organisatrice afin de préparer au mieux votre accueil.</p></details>
+        <details><summary>Plusieurs personnes de l’entreprise peuvent-elles venir ?</summary><p>Contactez l’équipe organisatrice afin de préparer au mieux votre accueil.</p></details>
       </div>
     </section>
 
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <p class="eyebrow">Une question ? Envie de participer ?</p><h2 id="contact-title">Parlons-en directement.</h2>
-      <div class="contact-actions"><a href="tel:+33466491457">04 66 49 14 57</a><a data-email-link href="mailto:secretariat@notredamemende.fr">secretariat@notredamemende.fr</a></div>
+      <p class="eyebrow">Une question ? Envie de participer ?</p>
+      <h2 id="contact-title">Parlons-en directement.</h2>
+      <p class="contact-copy">Un appel ou un courriel suffit. Indiquez simplement votre entreprise, votre nom et le nombre de personnes qui souhaitent venir.</p>
+      <div class="contact-actions">
+        <a data-phone-link href="tel:+33466491457"><span>Appeler l’établissement</span><strong data-field="telephoneAffiche">04 66 49 14 57</strong></a>
+        <a data-email-link href="mailto:t.gautier@notredamemende.fr"><span>Écrire à l’établissement</span><strong>t.gautier@notredamemende.fr</strong></a>
+      </div>
+      <p class="contact-status" data-email-status hidden>L’adresse e-mail doit être confirmée avant la diffusion définitive du QR code.</p>
     </section>
   </main>
 
   <footer>
     <p><strong>Job Dating · BTS NDRC</strong><br>Lycée Notre-Dame — Mende</p>
     <div><button class="footer-link" data-dialog-open="legal">Mentions légales</button><button class="footer-link" data-dialog-open="privacy">Confidentialité</button></div>
-    <p>© <span id="year"></span> Lycée Notre-Dame</p>
+    <p>© <span id="year">2026</span> Lycée Notre-Dame</p>
   </footer>
 
-  <dialog id="legal"><button class="dialog-close" aria-label="Fermer">×</button><h2>Mentions légales</h2><h3>Éditeur</h3><p>Site consacré au Job Dating du BTS NDRC du Lycée Notre-Dame, avenue Maréchal de Lattre de Tassigny, 48000 Mende. Téléphone : 04 66 49 14 57.</p><h3>Direction de la publication</h3><p>Direction de l'établissement Notre-Dame de Mende.</p><h3>Hébergement</h3><p>GitHub Pages, service proposé par GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p><h3>Contenus</h3><p>Les contenus et visuels du site sont destinés à l'information sur l'événement. Toute reproduction non autorisée est interdite.</p></dialog>
-  <dialog id="privacy"><button class="dialog-close" aria-label="Fermer">×</button><h2>Confidentialité</h2><p>Ce site ne comporte aucun formulaire, traceur publicitaire ni outil de mesure d'audience ajouté par l'équipe organisatrice. Il ne dépose donc pas de cookie à des fins publicitaires ou statistiques.</p><p>Les liens vers le téléphone, la messagerie et l'itinéraire ouvrent des services externes dont les règles de confidentialité s'appliquent.</p></dialog>
+  <dialog id="legal">
+    <button class="dialog-close" aria-label="Fermer">×</button>
+    <h2>Mentions légales</h2>
+    <h3>Éditeur</h3><p>Site consacré au Job Dating du BTS NDRC du Lycée Notre-Dame, avenue Maréchal de Lattre de Tassigny, 48000 Mende. Téléphone : 04 66 49 14 57.</p>
+    <h3>Direction de la publication</h3><p>Direction de l’établissement Notre-Dame de Mende.</p>
+    <h3>Hébergement</h3><p>GitHub Pages, service proposé par GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>
+    <h3>Contenus</h3><p>Les contenus et visuels du site sont destinés à l’information sur l’événement. Toute reproduction non autorisée est interdite.</p>
+  </dialog>
 
-  <div class="mobile-actions" aria-label="Actions rapides"><a href="#programme">Programme</a><a href="#pratique">Infos</a><a href="tel:+33466491457">Appeler</a></div>
-  <script src="content.js"></script><script src="script.js"></script>
+  <dialog id="privacy">
+    <button class="dialog-close" aria-label="Fermer">×</button>
+    <h2>Confidentialité</h2>
+    <p>Ce site ne comporte aucun formulaire, traceur publicitaire ni outil de mesure d’audience ajouté par l’équipe organisatrice. Il ne dépose donc pas de cookie à des fins publicitaires ou statistiques.</p>
+    <p>Les liens vers le téléphone, la messagerie et l’itinéraire ouvrent des services externes dont les règles de confidentialité s’appliquent.</p>
+  </dialog>
+
+  <div class="mobile-actions" aria-label="Actions rapides">
+    <a href="#programme">Programme</a>
+    <a data-map-link href="https://www.google.com/maps/search/?api=1&amp;query=Lyc%C3%A9e+Notre-Dame+Mende" target="_blank" rel="noopener">Itinéraire</a>
+    <a data-phone-link href="tel:+33466491457">Appeler</a>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
