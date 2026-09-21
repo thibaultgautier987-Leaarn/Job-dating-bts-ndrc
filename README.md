@@ -1,25 +1,17 @@
-# Job Dating — BTS NDRC × Entreprises
+# Site Job Dating BTS NDRC
 
-Site public du Job Dating organisé par les étudiants du BTS NDRC du Lycée Notre-Dame à Mende.
+Site statique public destiné aux entreprises invitées au Job Dating du BTS NDRC de Mende.
 
-## Version
-V0.3 — refonte UX/UI orientée mobile et consultation après scan du QR code.
+## Modifier les informations essentielles
 
-## Principes UX
-- Deux parcours visibles dès le départ : découvrir / préparer sa venue.
-- Informations essentielles visibles sans chercher.
-- Pas de formulaire obligatoire.
-- FAQ basée sur les vraies objections des entreprises.
-- Barre d'actions fixe sur mobile.
-- Contenu centralisé dans `content.js` pour faciliter les modifications.
+Ouvrir `content.js` pour changer la date, les horaires, le téléphone ou l'adresse e-mail.
 
-## Avant publication définitive
-À confirmer :
-- adresse e-mail officielle ;
-- durée exacte des présentations ;
-- nombre d'étudiants ;
-- parking ;
-- entrée ;
-- accessibilité ;
-- contact du jour J ;
-- mentions légales complètes.
+Le contenu des sections et de la FAQ se trouve dans `index.html`. L'apparence et les animations se trouvent dans `styles.css`.
+
+## Publication
+
+Le site est compatible avec GitHub Pages sans compilation. Dans les paramètres du dépôt : **Pages → Deploy from a branch → main / root**.
+
+## Avant diffusion du QR code
+
+Vérifier l'adresse e-mail, le responsable de publication, l'URL publique et toutes les informations pratiques sur plusieurs téléphones.
