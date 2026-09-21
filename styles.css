@@ -20,7 +20,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
-body { margin: 0; background: var(--cream); color: var(--ink); font: 400 1rem/1.65 var(--font-sans); }
+body { margin: 0; overflow-x: hidden; background: var(--cream); color: var(--ink); font: 400 1rem/1.65 var(--font-sans); }
 img { display: block; max-width: 100%; }
 a { color: inherit; }
 [hidden] { display: none !important; }
