@@ -233,3 +233,25 @@ Le site doit évoluer comme un système :
 - synthèse des retours professionnels ;
 - bilan de l'événement ;
 - version réutilisable l'année suivante.
+
+## 14. Audit du site publié — 21 septembre 2026
+
+Constats vérifiés sur l’URL GitHub Pages :
+
+- le site publié correspond bien à la branche `main` et le dernier déploiement est réussi ;
+- le CSS de `.path-panel` neutralisait l’attribut HTML `hidden`, ce qui affichait simultanément les deux parcours ;
+- les contenus marqués `.reveal` dépendaient entièrement de JavaScript et pouvaient produire de grandes zones vides lors d’une impression, d’une capture complète ou d’un chargement dégradé ;
+- l’image passait avant l’information essentielle sur mobile ;
+- l’appel à l’action principal menait à une section d’information, pas à l’intention principale de participer ;
+- les polices Google ajoutaient une dépendance externe non indispensable ;
+- l’adresse e-mail était affichée comme certaine alors que sa validation reste indiquée comme nécessaire dans ce document ;
+- la publication par branche et le workflow GitHub Actions semblaient tous deux activés. Une seule source de publication doit être conservée.
+
+Corrections proposées dans la branche de refonte :
+
+- affichage fiable avec ou sans JavaScript, prise en charge de `hidden` et mode impression ;
+- navigation clavier complète des onglets et états de focus visibles ;
+- parcours principal recentré sur la participation, avec bénéfices et objections visibles plus tôt ;
+- ordre mobile corrigé et mise en page renforcée pour les petits écrans ;
+- données variables davantage centralisées dans `content.js` ;
+- ajout d’un fichier calendrier et d’un contrôle automatique sans dépendance.
